@@ -1,4 +1,10 @@
+#!/usr/bin/python3
+'''
+0. Pascal's Triangle
+'''
+
 def pascal_triangle(n):
+    '''Create Pascal triangle'''
     if n <= 0:
         return []
 
