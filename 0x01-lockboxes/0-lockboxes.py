@@ -3,6 +3,11 @@
 
 
 def canUnlockAll(boxes):
+    """
+    Args:
+      boxes
+    Return: bool
+    """
     keys = set([0])
     while True:
         prev_len = len(keys)
